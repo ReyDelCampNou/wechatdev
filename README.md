@@ -18,4 +18,8 @@
 
 题目：垃圾分类小程序
 
+位置：[wechatdev/exp3 at master · ReyDelCampNou/wechatdev (github.com)](https://github.com/ReyDelCampNou/wechatdev/tree/master/exp3)
+
+详细信息：[wechatdev/exp3/exp3.md at master · ReyDelCampNou/wechatdev (github.com)](https://github.com/ReyDelCampNou/wechatdev/blob/master/exp3/exp3.md)
+
 
