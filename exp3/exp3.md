@@ -7,7 +7,7 @@
 | 本实验属于哪门课程？  | 中国海洋大学24夏《移动软件开发》                                           |
 | 实验名称？       | 实验2：天气查询小程序                                                 |
 | 博客地址？       | 无                                                           |
-| Github仓库地址？ | https://github.com/ReyDelCampNou/wechatdev/tree/master/exp2 |
+| Github仓库地址？ | https://github.com/ReyDelCampNou/wechatdev/tree/master/exp3 |
 
 ## **一、实验目标**
 
