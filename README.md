@@ -32,7 +32,7 @@
 
 # 实验五
 
-题目：媒体API之口述校史
+题目：高校新闻网
 
 位置：[wechatdev/exp5 at master · ReyDelCampNou/wechatdev (github.com)](https://github.com/ReyDelCampNou/wechatdev/tree/master/exp5)
 
