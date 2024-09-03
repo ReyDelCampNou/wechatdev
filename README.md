@@ -37,3 +37,11 @@
 位置：[wechatdev/exp5 at master · ReyDelCampNou/wechatdev (github.com)](https://github.com/ReyDelCampNou/wechatdev/tree/master/exp5)
 
 详细信息：[wechatdev/exp5/实验5实验报告 陈正元22020007159.pdf at master · ReyDelCampNou/wechatdev (github.com)](https://github.com/ReyDelCampNou/wechatdev/blob/master/exp5/%E5%AE%9E%E9%AA%8C5%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%20%E9%99%88%E6%AD%A3%E5%85%8322020007159.pdf)
+
+# 实验六
+
+题目：推箱子游戏
+
+位置：[wechatdev/exp6 at master · ReyDelCampNou/wechatdev · GitHub](https://github.com/ReyDelCampNou/wechatdev/blob/master/exp6)
+
+详细信息：[wechatdev/exp6/实验6实验报告 陈正元22020007159.pdf at master · ReyDelCampNou/wechatdev (github.com)](https://github.com/ReyDelCampNou/wechatdev/blob/master/exp6/%E5%AE%9E%E9%AA%8C6%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%20%E9%99%88%E6%AD%A3%E5%85%8322020007159.pdf)
