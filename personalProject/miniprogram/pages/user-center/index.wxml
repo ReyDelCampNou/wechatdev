@@ -1,0 +1,39 @@
+<!-- pages/me/index.wxml -->
+<view class="page_container">
+  <view class="top_bg" />
+  <view class="main_content">
+    <view class="userinfo_container">
+      <image class="avatar" src="{{avatarUrl}}" bind:tap="getOpenId" mode="widthFix" />
+      <block wx:if="{{ !nickName }}">
+        <view class="username" bind:tap="getOpenId">请点击登录</view>
+      </block>
+      <block wx:else>
+        <view class="username">{{ nickName }}</view>
+      </block>
+    </view>
+    <view class="settings_container">
+      <view class="setting_item" bindtap="navigateToProfSettings">
+        <view class="left">
+          <image class="setting_icon" src="../../images/icons/setting.svg" />
+          <view class="setting_text">个人信息设置</view>
+        </view>
+        <image class="arrow_icon" src="../../images/arrow.svg" />
+      </view>
+      <view class="setting_item" bindtap="navigateToMyFavor">
+        <view class="left">
+          <image class="setting_icon" src="../../images/icons/setting.svg" />
+          <view class="setting_text">我的收藏</view>
+        </view>
+        <image class="arrow_icon" src="../../images/arrow.svg" />
+      </view>
+      <view class="setting_item" bindtap="navigateToMyPost">
+        <view class="left">
+          <image class="setting_icon" src="../../images/icons/setting.svg" />
+          <view class="setting_text">我的帖子</view>
+        </view>
+        <image class="arrow_icon" src="../../images/arrow.svg" />
+      </view>
+    </view>
+  </view>
+  <cloud-tip-modal showUploadTipProps="{{showUploadTip}}" />
+</view>

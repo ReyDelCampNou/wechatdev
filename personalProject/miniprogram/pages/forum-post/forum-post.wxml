@@ -1,0 +1,12 @@
+<!--pages/forum-post/forum-post.wxml-->
+<view class="container">
+  <input class="input" type="text" placeholder="标题" bindinput="onTitleInput" maxlength="30"/>
+  <view class="type_buttons">
+    <button class="button {{type === 'recipe' ? 'selected' : ''}}" bindtap="onChooseType" data-type="recipe">食谱</button>
+    <button class="button {{type === 'test' ? 'selected' : ''}}" bindtap="onChooseType" data-type="test">测评</button>
+  </view>
+  <textarea class="textarea" placeholder="内容" bindinput="onContentInput" maxlength="5000"></textarea>
+  <button class="button" bindtap="onChooseImage">选择图片</button>
+  <image class="image" src="{{imageUrl}}" mode="aspectFit" wx:if="{{imageUrl}}" />
+  <button class="button" bindtap="onSubmit">提交</button>
+</view>

@@ -1,0 +1,20 @@
+<!--pages/post-detail/post-detail.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="title">{{post.title}}</text>
+    <view class="meta">
+      <text class="author">{{creater.nickName}}</text>
+      <text class="time">{{createTime}}</text>
+    </view>
+  </view>
+  <image class="image" src="{{post.imageUrl}}" mode="aspectFit" bindtap="onImageTap" />
+  <view class="content">{{post.content}}</view>
+  <view class="footer_upper">
+    <text class="like_count">{{likes}} 赞</text>
+    <text class="collect_count">{{favorited}} 收藏</text>
+  </view>
+  <view class="footer">
+    <button class="like" bindtap="onLikeTap">{{likeMessage}}</button>
+    <button class="collect" bindtap="onCollectTap">{{collectMessage}}</button>
+  </view>
+</view>

@@ -1,0 +1,1 @@
+"E:\WeChatWebDevTool\cli.bat" cloud functions deploy --e wechatdev-0g2rkg861dd11700 --n quickstartFunctions --r --project "E:\wechatdev\personalProject" --report_first --report

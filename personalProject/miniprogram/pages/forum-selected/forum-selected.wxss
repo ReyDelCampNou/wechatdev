@@ -1,0 +1,54 @@
+/* pages/forum-selected/forum-selected.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F0E0;
+  height: 100vh;
+}
+
+.post-list {
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+.post-item {
+  padding: 10px;
+  border-bottom: 3px solid #F0B020;
+  width: 100vw;
+  justify-content: center;
+}
+
+image{
+  flex: 30%;
+  width: 30vw;
+  height: 20vw;
+}
+
+text{
+  font-size: 30px;
+  font-family: "黑体";
+  margin-left: 5vw;
+  width: 65vw;
+  color: #F0B020;
+}
+
+button{
+  flex: 1;
+  color: #F0B020;
+  margin-bottom: 15px;
+  width: 30vw;
+}
+
+.type_buttons{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1px solid #F0B020;
+}
+
+.button.selected{
+  color: #F5F0E0;
+  background-color: #F0B020;
+}

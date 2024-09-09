@@ -1,0 +1,66 @@
+/* pages/post-detail/post-detail.wxss */
+.container {
+  padding: 10px;
+  background-color: #F5F0E0;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+.header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+.content {
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  overflow: auto;
+  width:80vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.footer_upper {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  text-align: center;
+}
+
+.like_count,
+.collect_count {
+  flex: 1;
+  color: #F0B020;
+  width: 30vw;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  color: #F0B020;
+  margin-bottom: 15px;
+  width: 30vw;
+  margin-top: 20px;
+}

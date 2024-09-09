@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user-center/index",
+    "pages/index/change-list",
+    "pages/forum-main/forum-main",
+    "pages/forum-detail/forum-detail",
+    "pages/post-detail/post-detail",
+    "pages/forum-post/forum-post",
+    "pages/forum-selected/forum-selected",
+    "pages/profile-settings/profile-settings",
+    "pages/my-favorites/my-favorites",
+    "pages/my-posts/my-posts"
+  ],
+  "window": {
+    "backgroundColor": "#F5F0E0",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5F0E0",
+    "navigationBarTitleText": "海大学子今天的饭",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#F0B020",
+    "backgroundColor": "#F5F0E0",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "今天的饭",
+        "iconPath": "images/icons/home.png",
+        "selectedIconPath": "images/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/forum-main/forum-main",
+        "text": "论坛",
+        "iconPath": "images/icons/forum.jpg",
+        "selectedIconPath": "images/icons/forum-active.png"
+      },
+      {
+        "pagePath": "pages/user-center/index",
+        "text": "我",
+        "iconPath": "images/icons/usercenter.png",
+        "selectedIconPath": "images/icons/usercenter-active.png"
+      }
+    ]
+  }
+}

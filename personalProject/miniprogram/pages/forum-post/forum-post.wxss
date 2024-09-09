@@ -1,0 +1,48 @@
+/* pages/forum-post/forum-post.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F0E0;
+  height: 100vh;
+}
+
+.input{
+  width: 100vw;
+  font-size: 30px;
+  height: 10%;
+  border-bottom: 1px solid #F0B020;
+  color: #F0B020;
+}
+
+.textarea{
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100vw;
+  height: 100vh;
+  color: #F0B020;
+}
+
+.button {
+  width: 100vw;
+  margin-bottom: 15px;
+  color: #F0B020;
+}
+
+.image {
+  width: 60vw;
+  display: inline;
+  padding: 0;
+}
+
+.type_buttons{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1px solid #F0B020;
+}
+
+.button.selected{
+  color: #F5F0E0;
+  background-color: #F0B020;
+}

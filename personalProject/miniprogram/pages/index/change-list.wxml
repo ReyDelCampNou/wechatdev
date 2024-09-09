@@ -1,0 +1,26 @@
+<!--pages/index/change-list.wxml-->
+<view class="container">
+  <view class="list_section">
+    <view wx:for="{{list}}" wx:for-index="idx" wx:key="*this" class="list_item">
+      <text>{{item}}</text>
+      <button class="delete_button" bindtap="deleteItem" data-idx="{{idx}}">删除</button>
+      <button class="edit_button" bindtap="editItem" data-idx="{{idx}}">编辑</button>
+    </view>
+    <view class="list_item">
+      <button class="add_button" bindtap="addItem">增加条目</button>
+    </view>
+  </view>
+  <view class="util_section">
+    <button class="save_button" bindtap="saveItemList">保存</button>
+    <button class="return_button" bindtap="returnHome">返回</button>
+  </view>
+  <view wx:if="{{showModal}}" class="custom_modal">
+    <text>{{modelTitle}}</text>
+    <input type="text" value="{{inputValue}}" bindinput="onInput" />
+    <view class="util_section">
+      <button bindtap="confirmEdit">确定</button>
+      <button bindtap="cancelEdit">取消</button>
+    </view>
+    
+  </view>
+</view>

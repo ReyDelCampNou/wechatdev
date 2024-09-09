@@ -1,0 +1,15 @@
+<!--pages/forum-selected/forum-selected.wxml-->
+<view class="container">
+  <view class="type_buttons">
+    <button class="button {{type === 'likes' ? 'selected' : ''}}" bindtap="onChooseType" data-type="likes">点赞</button>
+    <button class="button {{type === 'favorited' ? 'selected' : ''}}" bindtap="onChooseType" data-type="favorited">收藏</button>
+  </view>
+  <view class="post-list">
+    <block wx:for="{{posts}}" wx:key="id">
+      <view class="post-item" bindtap="onPostTap" data-id="{{item._id}}">
+        <image src="{{item.imageUrl}}"></image>
+        <text>{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+</view>

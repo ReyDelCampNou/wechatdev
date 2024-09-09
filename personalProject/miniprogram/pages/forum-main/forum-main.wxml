@@ -1,0 +1,25 @@
+<!--pages/forum-main/forum-main.wxml-->
+<view class="container">
+  <view class="topic_container">
+    <view class="topic_row">
+      <view class="topic_column" bindtap="navigateToSelected">
+        <image src="../../images/forum-selected.jpg"></image>
+        <text>精选文章</text>
+      </view>
+      <view class="topic_column" bindtap="navigateToTest">
+        <image src="../../images/forum-food-test.jpg"></image>
+        <text>美食测评</text>
+      </view>
+    </view>
+    <view class="topic_row">
+      <view class="topic_column" bindtap="navigateToRecipe">
+        <image src="../../images/forum-recipe.png"></image>
+        <text>食谱分享</text>
+      </view>
+      <view class="topic_column" bindtap="navigateToPost">
+        <image src="../../images/forum-post.png"></image>
+        <text>发布文章</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main">
+    <view class="title">今天吃什么</view>
+    <button class="random_button" bindtap="rollDice">{{result}}</button>
+  </view>
+  <button class="change_button" bindtap="changeList">更改随机内容</button>
+</view>
